@@ -1,2 +1,2 @@
 # myBlog
-this is a blog for personal use
+this is a blog for demo and learn security topics.

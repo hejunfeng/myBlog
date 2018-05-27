@@ -19,16 +19,14 @@ this is a blog for demo and learn security topics.
     3. 查看一篇文章（包含留言）：`GET /posts/:postId`
 5. 发表文章
     1. 发表文章页：`GET /posts/`
-    2. 发表文章：`POST /posts/create`
+    2. 发表文章：`POST /posts`
 6. 修改文章
-    1. 修改文章页：`GET /posts/:postId/edit`
-    2. 修改文章：`POST /posts/:postId/edit`
+    1. 修改文章页：`GET /posts/:postId`
+    2. 修改文章：`PUT /posts/:postId`
 7. 删除文章：`DELETE /posts/:postId`
 8. 留言
     1. 创建留言：`POST /comments`
-    2. 删除留言：`GET /comments/:commentId/remove`
-
-由于我们博客页面是后端渲染的，所以只通过简单的 `<a>(GET)` 和 `<form>(POST)` 与后端进行交互，如果使用 jQuery 或者其他前端框架（如 Angular、Vue、React 等等）可通过 Ajax 与后端交互，则 api 的设计应尽量遵循 Restful 风格。
+    2. 删除留言：`DELETE /comments/:commentId`
 
 #### Restful
 

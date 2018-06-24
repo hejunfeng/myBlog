@@ -2,6 +2,8 @@
 this is a blog for demo and learn security topics.
 ## 功能与路由设计
 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}. $$
+
 1. 注册
     1. 注册页：`GET /signup`
     2. 注册（包含上传头像）：`POST /signup`
